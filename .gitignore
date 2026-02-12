@@ -1,0 +1,13 @@
+# Ignorar archivos compilados
+build/
+
+# Objetos de C
+*.o
+
+# Ejecutables
+*.exe
+*.out
+sistema_os
+
+# Archivos temporales
+*.log
