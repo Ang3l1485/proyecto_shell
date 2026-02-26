@@ -47,7 +47,7 @@
     if (existed) {
         printf("Archivo '%s' actualizado (timestamps)\n", args[1]);
     } else {
-        printf("Archivo '%s' creado exitosamente\n", args[1]);
+        printf("Archivo '%s' creado exitosamente..\n", args[1]);
     }
  }
 
