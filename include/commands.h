@@ -43,6 +43,11 @@ void cmd_salir(char **args);
 
 // --- Utilidades del Registro de Comandos ---
 
+/** 
+ * @brief Comando de ejemplo para saludar al usuario.
+ */
+void cmd_crear(char **args);
+
 /**
  * @brief Retorna el número total de comandos registrados.
  * @return int Cantidad de comandos.
