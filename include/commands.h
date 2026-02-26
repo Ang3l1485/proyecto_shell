@@ -39,7 +39,28 @@ void cmd_ayuda(char **args);
 /**
  * @brief Termina la ejecución de la shell.
  */
+
 void cmd_salir(char **args);
+
+void cmd_crear(char **args);
+/**
+ * @brief crea un archivo
+ */
+
+void cmd_buscar(char **args);
+/**
+ * @brief busca texto en un archivo
+ */
+
+void cmd_eliminar(char **args);
+/**
+ * @brief elimina un archivo
+ */
+
+void cmd_mover(char **args);
+/**
+ * @brief Mueve un archivo de ubicacion
+ */
 
 // --- Utilidades del Registro de Comandos ---
 
@@ -53,5 +74,7 @@ void cmd_crear(char **args);
  * @return int Cantidad de comandos.
  */
 int num_comandos();
+
+
 
 #endif
