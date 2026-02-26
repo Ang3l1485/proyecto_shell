@@ -96,7 +96,7 @@ void cmd_eliminar(char **args) {
 /**
  * cmd_buscar - Implementa la búsqueda de texto en un archivo.
  * @args: args[1] es el patrón de texto, args[2] es la ruta del archivo.
- * * Este comando cumple con el requisito #12 de comandos avanzados de archivos.
+ 
  */
 void cmd_buscar(char **args) {
     // 1. Verificación: necesitamos al menos texto y archivo
